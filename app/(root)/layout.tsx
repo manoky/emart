@@ -16,7 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <div className="flex h-screen flex-col">
       <Header />
-      <main className="flex1 h-screen wrapper">{children}</main>
+      <main className="flex1 wrapper h-screen overflow-y-auto">{children}</main>
       <Footer />
     </div>
   );
