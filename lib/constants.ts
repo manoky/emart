@@ -4,3 +4,4 @@ export const DESCRIPTION =
   "E-mart is a platform for buying and selling products.";
 export const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+export const LATEST_PRODUCTS_LIMIT = 4;
