@@ -45,4 +45,3 @@ node_modules/
 dist/
 .env
 
-/lib/generated/prisma
